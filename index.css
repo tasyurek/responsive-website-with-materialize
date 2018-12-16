@@ -1,0 +1,59 @@
+header {
+  background-color: rgba(0, 0, 0, 0.8);
+  background-image: url("src/assets/aman2.jpg");
+
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position: center;
+  min-height: 1100px;
+}
+.header-content {
+  position: relative;
+  top: 15vw;
+  left: 10vw;
+  color: white;
+}
+
+@media screen and (max-width: 992px) {
+  header {
+    min-height: 600px;
+  }
+}
+@media screen and (max-width: 600px) {
+  header {
+    min-height: 360px;
+  }
+}
+header > nav {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.section {
+  padding: 4vw 0;
+}
+
+.tabs .indicator {
+  background-color: #01579b;
+}
+
+.tabs .tab a:focus,
+.tabs .tab a:focus.active {
+  background-color: transparent;
+  outline: none;
+}
+
+.tabs .tab a.active {
+  font-size: 16px;
+}
+
+.btn,
+.btn-large,
+.btn-small {
+  background-color: #01579b;
+}
+
+.btn:hover,
+.btn-large:hover,
+.btn-small:hover {
+  background-color: #0277bd;
+}
