@@ -1,3 +1,6 @@
+body {
+  overflow-x: hidden;
+}
 header {
   background-color: rgba(0, 0, 0, 0.8);
   background-image: url("assets/aman2.jpg");
